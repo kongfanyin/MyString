@@ -123,6 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="stringbad.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="strmain.cpp" />
+    <ClCompile Include="S_func.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
